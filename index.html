@@ -1,0 +1,59 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechTrek</title>
+        <link rel="stylesheet"href="style.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <video autoplay loop muted plays-inline class="background-clip">
+                <source src="bg.mp4" type="video/mp4">
+            </video>
+        </div>
+    
+        <header>
+            <img src="logo.png" alt="logo">
+            <nav class="navigation">
+                <a href="support.html">Contact Us</a>
+                <button class="btnLogin-popup">Login</button>
+            </nav>
+        </header>
+
+        <div class="wrapper">
+            <span class="icon-close"><ion-icon name="close-circle-outline"></ion-icon></span>
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form id="Login Form"></form>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-open-outline"></ion-icon>
+                        </span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forget">
+                        <label><input type="checkbox">Remember Me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <a href="Main.html">
+                    <button type="Submit" class="btn" onclick="func()">Login</button>
+                </a>
+                </form>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></scrip>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+    </html>
